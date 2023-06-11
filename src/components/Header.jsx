@@ -2,13 +2,11 @@ import React from "react";
 import Logo from "../img/LogoKasa.png"
 import { NavLink } from 'react-router-dom'
 
-// funcao
+
 const Header = () => {
     return (
         <header className="headers">
-            
-            <img
-                className="logo" src= {Logo} alt="LogoKasa"></img>
+            <img className="logo" src= {Logo} alt="LogoKasa"></img>
             <nav>
                 <ul className="navigation">
                     <li className="linknavigation"><NavLink to='/'>Accueil</NavLink> </li>
@@ -18,5 +16,11 @@ const Header = () => {
         </header> 
     )
 }
+export default Header
 
-export default Header // para poder exportar noutro ficheiros
+
+/*importei o logo k se encontra no dossier
+
+criei uma funcao header , onde tem a imagem e a barra de navegacao
+e no fim exporto a funcao , para poder utilizar noutros ficheiros
+*/

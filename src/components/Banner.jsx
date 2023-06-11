@@ -1,8 +1,19 @@
 import React from "react";
-// import Banner from 
+import banner from "../img/banner.png"
 
-const Banner = () => {
+
+const Banner = () => { 
     return (
-        <p>banner</p>);
+        <div className="banner">
+            <img src={banner} alt="banner" />
+            <p>Chez vous, partout et ailleurs</p>
+        </div>
+    )
 }
 export default Banner;
+
+/*importei a imagem do banner k ta no dossier
+//criei uma funcao para o banner 
+onde criei uma div k contem a img e o texto
+e no fim exportei para poder utilizar noutros ficheiros
+*/

@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-
 import {BrowserRouter , Route , Routes} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import Test from './pages/Test';
+
 import Header from './components/Header';
-import Home from './pages/Home';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
+import Housing from './pages/HousingPage';
+import Error from './pages/PropertyError';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,9 @@ root.render(
         {/* variable part of the application */}
         <Routes>
           <Route path='/' element = {<Home />}></Route>
-          <Route path='/test' element = {<Test />}></Route>
+          <Route path='/AboutPage' element = {<AboutPage />}></Route>
+          <Route path='/HousingPage' element = {<Housing />}></Route>
+          <Route path='/PropertyError' element = {<Error />}></Route>
         </Routes>
 
          {/* fixed part of the application */}
