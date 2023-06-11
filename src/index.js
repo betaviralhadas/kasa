@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import AboutPage from './pages/AboutPage';
-import Housing from './pages/HousingPage';
+import About from './pages/About';
+import Housing from './pages/Housing';
 import Error from './pages/PropertyError';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,8 +21,8 @@ root.render(
         {/* variable part of the application */}
         <Routes>
           <Route path='/' element = {<Home />}></Route>
-          <Route path='/AboutPage' element = {<AboutPage />}></Route>
-          <Route path='/HousingPage' element = {<Housing />}></Route>
+          <Route path='/About' element = {<About />}></Route>
+          <Route path='/Housing' element = {<Housing />}></Route>
           <Route path='/PropertyError' element = {<Error />}></Route>
         </Routes>
 

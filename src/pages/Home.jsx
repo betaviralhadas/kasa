@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/Banner";
 import Cards from "../components/Cards"
 import Footer from "../components/Footer";
+import '../style/Home.scss'
 
 const Home = () => {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer"
 import ImgAbout from "../img/about.png"
+import '../style/About.scss'
 
 const AboutPage = () => {
     return (
@@ -8,7 +9,9 @@ const AboutPage = () => {
             <div>
                 <img src="{ImgAbout}" alt="ImgAbout" />
             </div>
-            
+            <section>
+                
+            </section>
         </main>
     );
 }

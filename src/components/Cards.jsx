@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logements from '../logementsAnnonces.json'
+import '../style/Cards.scss'
 
 function Cards() {
     return (

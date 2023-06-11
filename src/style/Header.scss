@@ -1,0 +1,23 @@
+.headers {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 100px 50px 100px;
+    }
+
+    .logo {
+        height: 48px;
+        width: 180px;
+        }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        gap: 57px;
+        list-style: none;
+        }
+        .linknavigation {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            color: #FF6060;
+        }
