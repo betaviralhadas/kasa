@@ -1,0 +1,25 @@
+.banner {
+    position: relative;
+    left: 100px;
+    height: 223px;
+    width: 1140px;
+    img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 25px;
+        object-fit: cover;
+        opacity: 0.5;
+        mix-blend-mode: darken;
+        background: black;
+    }
+    p {
+        position: absolute;
+        top: 32px;
+        left: 286px;
+        color: #FFFFFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+    }
+}

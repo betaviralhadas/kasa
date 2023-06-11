@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer"
-import '../style/Housing.scss'
+import '../style/pages/_Housing.scss'
 
 const Housing = () => {
     return (

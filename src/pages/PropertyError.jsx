@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer"
-import '../style/PropertyError.scss'
+import '../style/pages/_PropertyError.scss'
 
 const Error = () => {
     return (

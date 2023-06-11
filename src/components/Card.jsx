@@ -1,4 +1,4 @@
 import React from 'react'
 
-import '../style/Card.scss'
+import '../style/components/_Card.scss'
 
