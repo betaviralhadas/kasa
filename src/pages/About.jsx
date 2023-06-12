@@ -6,10 +6,10 @@ import Collapse from "../components/Collapse";
 const AboutPage = () => {
     return (
         <main>
-            <div>
+            <div className="imgabout">
                 <img src={ImgAbout} alt="ImgAbout" />
             </div>
-            <section>
+            <section className="collapse">
                 <Collapse 
                 title="Fiabilité" 
                 description={
