@@ -1,6 +1,6 @@
 .button {
     width: 1023px;
-    height: 52px;
+    height: 50px;
     background: #FF6060;
     border-radius: 5px;
 
@@ -27,5 +27,9 @@
         }
     }
 
-    .description {}
+    .description {
+        background: aliceblue;
+        color: #FF6060;
+        padding: 1px 0px 1px 16px;
+    }
 }

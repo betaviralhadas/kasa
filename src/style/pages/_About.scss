@@ -1,5 +1,13 @@
 .imgabout {
-
+    position: relative;
+    left: 100px;
+    height: 223px;
+    width: 1140px;
+    border-radius: 25px;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: darken;
+    background: black;
 }
 
 .collapse {

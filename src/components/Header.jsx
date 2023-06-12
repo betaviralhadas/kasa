@@ -6,14 +6,14 @@ import '../style/components/_Header.scss'
 const Header = () => {
     return (
         <header className="headers">
-            <img className="logo" src= {Logo} alt="LogoKasa"></img>
+            <img className="logo" src={Logo} alt="LogoKasa"></img>
             <nav>
                 <ul className="navigation">
                     <li className="linknavigation"><NavLink to='/'>Accueil</NavLink> </li>
                     <li className="linknavigation"><NavLink to='/about'>A Propos</NavLink></li>
                 </ul>
             </nav>
-        </header> 
+        </header>
     )
 }
 export default Header
