@@ -23,7 +23,7 @@ root.render(
           <Route path='/' element = {<Home />}></Route>
           <Route path='/About' element = {<About />}></Route>
           <Route path='/Housing' element = {<Housing />}></Route>
-          <Route path='/PropertyError' element = {<Error />}></Route>
+          <Route path='*' element = {<Error />}></Route>
         </Routes>
 
          {/* fixed part of the application */}

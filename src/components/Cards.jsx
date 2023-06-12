@@ -1,23 +1,23 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logements from '../logementsAnnonces.json'
 import '../style/components/_Cards.scss'
 
 function Cards() {
     return (
-        <section className="logementsGallery">
+        <section className="housingGallery">
             {logements.map((logement) => (
                 <Link
-                    to={`/`}
-                    className="items-logements"
+                    to={`/Housing`}
+                    className="housingItems"
                     key={logement.id}
                 >
                     <img
                         src={logement.cover}
                         alt="annonce de logement en location"
-                        className="logements__img"
+                        className="housingImg"
                     />
-                    <h3 className="logements__title">{logement.title}</h3>
+                    <h3 className="housingTitle">{logement.title}</h3>
                 </Link>
             ))}
         </section>

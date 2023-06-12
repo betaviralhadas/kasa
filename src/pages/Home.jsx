@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Cards from "../components/Cards"
-import Card from "../components/Card"
+
 import Footer from "../components/Footer";
 import '../style/pages/_Home.scss'
 

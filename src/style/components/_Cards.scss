@@ -1,0 +1,39 @@
+.housingGallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 829px;
+    width: 1140px;
+    margin: 43px 100px 50px 100px;
+    background:  #F7F7F7;
+    border-radius: 25px;
+    row-gap: 40px;
+    .housingItems {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        top: 56px;
+        width: 340px;
+        height: 340px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .housingImg {
+        box-sizing: border-box;
+        width: 340px;
+        height: 290px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+    .housingTitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: white;
+        text-align: start;
+        line-height: 26px;
+    }
+}
