@@ -3,14 +3,24 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    line-height: 26px;
+    font-style: normal;
     color: #FF6060;
+    margin-bottom: 125px;
+
     h1 {
-
+        font-weight: 700;
+        font-size: 288px;
     }
+
     h2 {
-
+        font-weight: 500;
+        font-size: 36px;
     }
-    p {
 
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration-line: underline;
     }
 }

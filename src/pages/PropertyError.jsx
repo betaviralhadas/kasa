@@ -1,3 +1,5 @@
+// Error Page
+
 import React from "react";
 import '../style/pages/_PropertyError.scss'
 
