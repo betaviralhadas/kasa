@@ -8,13 +8,26 @@
     opacity: 1;
     mix-blend-mode: darken;
     background: black;
+
+    @media screen and (max-width:767px) {
+        width: 375px;
+        left: 20px;
+        border-radius: 10px;
+    }
 }
 
 .collapse {
+    position: relative;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     align-items: center;
     margin-top: 35px;
     margin-bottom: 35px;
+
+    @media screen and (max-width:767px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        row-gap: 22px;
+    }
 }

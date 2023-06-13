@@ -1,11 +1,25 @@
 .headers {
+    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 45px 100px 50px 100px;
+    width: 1140px;
+
+    @media screen and (max-width:767px) {
+        width: 335px;
+        height: 45px;
+        margin: 20px;
+    }
 
     .logo {
         height: 48px;
         width: 180px;
+
+        @media screen and (max-width:767px) {
+            width: 115px;
+            height: 45px;
+        }
     }
 
     .navigation {
@@ -14,15 +28,27 @@
         gap: 57px;
         list-style: none;
 
+        @media screen and (max-width:767px) {
+            gap: 24px;
+            margin-left: 72px;
+        }
+
         .linknavigation {
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
 
+            @media screen and (max-width:767px) {
+                font-size: 12px;
+                text-transform: uppercase;
+                width: 66px;
+            }
+
             a {
                 color: #FF6060;
                 text-decoration: none;
             }
+
             a:hover {
                 text-decoration: underline;
             }

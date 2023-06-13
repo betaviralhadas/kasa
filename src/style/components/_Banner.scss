@@ -4,6 +4,13 @@
     height: 223px;
     width: 1140px;
 
+    @media screen and (max-width:767px) {
+        width: 383px;
+        height: 120px;
+        left: 20px;
+        top: 10px;
+    }
+
     img {
         position: absolute;
         height: 100%;
@@ -13,6 +20,11 @@
         opacity: 0.5;
         mix-blend-mode: darken;
         background: black;
+
+        @media screen and (max-width:767px) {
+            border-radius: 10px;
+            object-fit: none;
+        }
     }
 
     p {
@@ -23,5 +35,12 @@
         font-size: 48px;
         font-style: normal;
         font-weight: 500;
+
+        @media screen and (max-width:767px) {
+            top: 11px;
+            left: 16px;
+            font-size: 24px;
+            width: 180px;
+        }
     }
 }

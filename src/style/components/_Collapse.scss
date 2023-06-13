@@ -4,6 +4,10 @@
     background: #FF6060;
     border-radius: 5px;
 
+    @media screen and (max-width:767px) {
+        width: 336px;
+    }
+
     .titlearrow {
         display: flex;
         flex-direction: row;
