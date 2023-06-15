@@ -1,10 +1,11 @@
 import React from "react";
-
+import Carousel from "../components/Carousel"
 import '../style/pages/_Housing.scss'
 
 const Housing = () => {
     return (
         <main>
+            {<Carousel />}
             <div>
                 
             </div>

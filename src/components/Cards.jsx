@@ -8,7 +8,7 @@ function Cards() {
         <section className="housingGallery">
             {logements.map((logement) => (
                 <Link
-                    to={`/Housing`}
+                    to={`/Housing/${logements.id}`}
                     className="housingItems"
                     key={logement.id}
                 >
