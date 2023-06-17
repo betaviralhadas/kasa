@@ -1,0 +1,31 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .arrowleft {
+        position: absolute;
+        left: 134px;
+    }
+    .arrowright {
+        position: absolute;
+        right: 121px;
+    }
+    .houseImg {
+        height: 415px;
+        width: 1140px;
+        margin-left: 100px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+    .pictureNumber {
+        position: absolute;
+        display: flex;
+        left: 659px;
+        bottom: -146px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+}
+

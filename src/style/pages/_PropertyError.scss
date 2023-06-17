@@ -12,6 +12,7 @@
     h1 {
         font-weight: 700;
         font-size: 288px;
+
         @media screen and (max-width:767px) {
             font-size: 96px;
         }
@@ -20,6 +21,7 @@
     h2 {
         font-weight: 500;
         font-size: 36px;
+
         @media screen and (max-width:767px) {
             font-size: 18px;
             width: 175px;
@@ -29,9 +31,11 @@
     }
 
     p {
+        color: #FF6060;
         font-weight: 500;
         font-size: 18px;
         text-decoration-line: underline;
+
         @media screen and (max-width:767px) {
             font-size: 14px;
         }

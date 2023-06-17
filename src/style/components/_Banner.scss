@@ -11,14 +11,18 @@
         top: 10px;
     }
 
+    @media screen and (min-width:768px) and (max-width:992px) {
+        width: 710px;
+        left: 20px;
+    }
+
     img {
         position: absolute;
         height: 100%;
         width: 100%;
         border-radius: 25px;
         object-fit: cover;
-        opacity: 0.5;
-        mix-blend-mode: darken;
+        filter: brightness(83%);
         background: black;
 
         @media screen and (max-width:767px) {
@@ -41,6 +45,12 @@
             left: 16px;
             font-size: 24px;
             width: 180px;
+        }
+
+        @media screen and (min-width:768px) and (max-width:992px) {
+            font-size: 38px;
+            top: 65px;
+            left: 126px;
         }
     }
 }

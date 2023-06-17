@@ -1,17 +1,30 @@
 import React from "react";
-import Carousel from "../components/Carousel"
-import '../style/pages/_Housing.scss'
+import { Navigate, useParams } from "react-router-dom";
+import housings from "../logementsAnnonces.json";
+import Collapse from "../components/Collapse";
+import Carousel from "../components/Carousel";
+import Star from "../components/Stars";
+import '../style/pages/_Housing.scss';
 
 const Housing = () => {
+    const { id } = useParams()
+    const housing = housings.find((appart) => appart.id === id)
+    const {title, description, host, rating, location, equipments, tags} = housing || {}
+    if(!housing) {
+        return <Navigate to = "*" />
+    }
     return (
         <main>
             {<Carousel />}
             <div>
-                
+                <div>
+                    <h1>{title}</h1>
+                    <h2>{location}</h2>
+
+
+
+                </div>
             </div>
-            <section>
-                <h1>Cozy loft on the Canal Saint-Martin</h1>
-            </section>
         </main>
     );
 }
