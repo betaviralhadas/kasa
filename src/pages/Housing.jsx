@@ -9,20 +9,44 @@ import '../style/pages/_Housing.scss';
 const Housing = () => {
     const { id } = useParams()
     const housing = housings.find((appart) => appart.id === id)
-    const {title, description, host, rating, location, equipments, tags} = housing || {}
-    if(!housing) {
-        return <Navigate to = "*" />
+    const { title, description, host, rating, location, equipments, tags } = housing || {}
+    if (!housing) {
+        return <Navigate to="*" />
     }
     return (
         <main>
             {<Carousel />}
-            <div>
+            <div className="house">
                 <div>
                     <h1>{title}</h1>
                     <h2>{location}</h2>
+                    <div className="tag">
+                        {tags.map((tag, index) => {
+                            return (
+                                <p key={index}>
+                                    {tag}
+                                </p>
+                            )
+                        })}
+                    </div>
+                    <div className="collapseDescription">
+                        {<Collapse
+                            title="Description"
+                            description={<p>{description}</p>} />}
+                    </div>
+                </div>
 
-
-
+                <div>
+                    <div className="host">
+                        <p>{host.name}</p>
+                        <img src={host.picture} alt="photo" />
+                    </div>
+                    <div className="star">{<Star rate={rating} />}</div>
+                    <div className="equipments">
+                        {<Collapse
+                            title="Equipements"
+                            description={<p>{equipments}</p>} />}
+                    </div>
                 </div>
             </div>
         </main>
