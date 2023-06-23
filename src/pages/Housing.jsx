@@ -45,7 +45,9 @@ const Housing = () => {
                     <div className="equipments">
                         {<Collapse
                             title="Equipements"
-                            description={<p>{equipments}</p>} />}
+                            description={<ul>{equipments.map((equipement) => {
+                                return <li key={`${equipement}`}>{equipement}</li>
+                            })}</ul>} />}
                     </div>
                 </div>
             </div>

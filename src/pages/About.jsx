@@ -35,8 +35,3 @@ const AboutPage = () => {
     );
 }
 export default AboutPage;
-
-/*criei uma funcao k contem a img (k a importei em cima)
-dps criei uma seccao k contem os botoes, e pa cada botao xamei o componente collapse com o titulo e a descricao
-e no fim exporto a funcao
-*/

@@ -17,7 +17,3 @@ const Footer = () => {
   )
 }
 export default Footer
-
-/* importei o logo 
-criei uma funcao onde tem a img do logo e 1tag com o texto 
-e exporto no fim */

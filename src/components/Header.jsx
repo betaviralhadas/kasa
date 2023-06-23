@@ -17,10 +17,3 @@ const Header = () => {
     )
 }
 export default Header
-
-
-/*importei o logo k se encontra no dossier
-
-criei uma funcao header , onde tem a imagem e a barra de navegacao
-e no fim exporto a funcao , para poder utilizar noutros ficheiros
-*/

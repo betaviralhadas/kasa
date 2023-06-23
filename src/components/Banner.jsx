@@ -11,9 +11,3 @@ const Banner = () => {
     )
 }
 export default Banner;
-
-/*importei a imagem do banner k ta no dossier
-//criei uma funcao para o banner 
-onde criei uma div k contem a img e o texto
-e no fim exportei para poder utilizar noutros ficheiros
-*/
