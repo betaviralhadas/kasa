@@ -9,6 +9,14 @@
     margin-top: 110px;
     margin-bottom: 125px;
 
+    @media screen and (max-width:380px) {
+        margin-left: 61px;
+    }
+
+    @media screen and (max-width:325px) {
+        margin-left: 114px;
+    }
+
     h1 {
         font-weight: 700;
         font-size: 288px;

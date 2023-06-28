@@ -4,7 +4,7 @@
 
     .arrowleft {
         position: absolute;
-        left: 134px;
+        left: 90px;
 
         @media screen and (max-width:767px) {
             width: 12px;
@@ -22,12 +22,12 @@
 
     .arrowright {
         position: absolute;
-        right: 121px;
+        right: 114px;
 
         @media screen and (max-width:767px) {
             width: 12px;
             height: 19px;
-            right: 42px;
+            right: 34px;
         }
 
         @media screen and (min-width:768px) and (max-width:992px) {
@@ -39,8 +39,8 @@
 
     .houseImg {
         height: 415px;
-        width: 1140px;
-        margin-left: 100px;
+        width: 1206px;
+        margin-left: 50px;
         border-radius: 25px;
         object-fit: cover;
 
@@ -54,6 +54,7 @@
         @media screen and (min-width:768px) and (max-width:992px) {
             margin-left: 20px;
             width: 710px;
+            height: 325px;
             border-radius: 10px;
         }
     }
@@ -62,7 +63,7 @@
         position: absolute;
         display: flex;
         left: 659px;
-        bottom: -146px;
+        bottom: -196px;
         font-size: 18px;
         font-weight: 500;
         color: white;

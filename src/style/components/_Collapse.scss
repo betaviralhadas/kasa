@@ -12,6 +12,10 @@
         width: 375px;
     }
 
+    @media screen and (max-width:325px) {
+        margin-left: 55px;
+    }
+
     @media screen and (min-width:768px) and (max-width:992px) {
         width: 710px;
     }
@@ -40,6 +44,10 @@
                 font-size: 15px;
             }
 
+            @media screen and (max-width:380px) {
+            width: 298px;
+            }
+
             @media screen and (min-width:768px) and (max-width:992px) {
                 width: 662px;
                 height: 28px;
@@ -50,7 +58,6 @@
             img {
                 position: absolute;
                 top: 16px;
-                transform: rotate(270deg);
                 object-fit: contain;
                 width: 25px;
                 height: 20px;
@@ -68,4 +75,11 @@
         padding: 1px 0px 1px 16px;
         border-radius: 0px 0 5px 5px;
     }
+}
+
+.collapse-arrow-down {
+    transform: rotate(270deg);
+}
+.collapse-arrow-up {
+    transform: rotate(90deg);
 }
