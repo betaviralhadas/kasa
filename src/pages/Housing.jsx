@@ -40,24 +40,25 @@ const Housing = () => {
                         <img src={host.picture} alt="photo" />
                     </div>
                     <div className="star">{<Star rate={rating} />}</div>
-                    
+
                 </div>
             </div>
             <div className="collapseHousing">
-                <div className="collapseDescription">
-                        {<Collapse
-                            title="Description"
-                            description={<p>{description}</p>} />}
-                </div>
-                <div className="equipments">
-                    {<Collapse
-                            
-                            title="Equipements"
-                            description={<ul>{equipments.map((equipement) => {
-                                return <li key={`${equipement}`}>{equipement}</li>
-                            })}</ul>} />}
-                </div>
-                        
+
+                {<Collapse
+                    className="collapseDescription"
+                    title="Description"
+                    description={<p>{description}</p>} />}
+
+
+                {<Collapse
+                    className="equipments"
+                    title="Equipements"
+                    description={<ul>{equipments.map((equipement) => {
+                        return <li key={`${equipement}`}>{equipement}</li>
+                    })}</ul>} />}
+
+
             </div>
         </main>
     );
