@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter , Route , Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import Header from './components/Header';
@@ -14,22 +14,22 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-      <BrowserRouter>
-        {/* fixed part of the application */}
-        <Header />
-        
-        {/* variable part of the application */}
-        <Routes>
-          <Route path='/' element = {<Home />}></Route>
-          <Route path='/About' element = {<About />}></Route>
-          <Route path='/Housing/:id' element = {<Housing />}></Route>
-          <Route path='*' element = {<Error />}></Route>
-        </Routes>
+    <BrowserRouter>
+      {/* fixed part of the application */}
+      <Header />
 
-         {/* fixed part of the application */}
-        <Footer />
-      </BrowserRouter>
-      
+      {/* variable part of the application */}
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/About' element={<About />}></Route>
+        <Route path='/Housing/:id' element={<Housing />}></Route>
+        <Route path='*' element={<Error />}></Route>
+      </Routes>
+
+      {/* fixed part of the application */}
+      <Footer />
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 

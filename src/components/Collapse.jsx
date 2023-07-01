@@ -11,7 +11,7 @@ const Collapse = ({ title, description }) => {
                 <a href={`#collapse${title}`}>
                     {/* ici, on change la classe de rotation de la flèche en fonction de l'état ouvert/fermé du collapse 
                        c'est un exemple de classe conditionnelle */}
-                    <img src={arrow} alt="arrow" className={open ? "collapse-arrow-up" : "collapse-arrow-down"}/>
+                    <img src={arrow} alt="arrow" className={open ? "collapse-arrow-up" : "collapse-arrow-down"} />
                 </a>
             </div>
             {open && <div className="description">{description}</div>}
