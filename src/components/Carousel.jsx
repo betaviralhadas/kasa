@@ -32,7 +32,7 @@ const Carousel = () => {
                     return (
                         <div key={index}>
                             {index === currentImg && (
-                                <img className="houseImg" src={image} alt="image"></img>
+                                <img className="houseImg" src={image} alt="house"></img>
                             )}
                             {index === currentImg && pictures.length > 1 && (
                                 <span className="pictureNumber">{currentImg + 1}/{pictures.length}</span>

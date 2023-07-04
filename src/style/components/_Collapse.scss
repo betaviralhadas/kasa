@@ -67,7 +67,35 @@
         color: #FF6060;
         padding: 1px 8px 1px 8px;
         border-radius: 0px 0 5px 5px;
+
+        p{
+            transform: scaleX(1);
+            animation: apparition 3s;
+        }
     }
+}
+
+@keyframes apparition {
+
+0% {
+opacity: 0;
+}
+
+25% {
+opacity: 0.2;
+}
+
+50% {
+opacity: 0.6;
+}
+
+75% {
+opacity: 0.8;
+}
+
+100% {
+opacity: 1;
+}
 }
 
 .collapse-arrow-down {

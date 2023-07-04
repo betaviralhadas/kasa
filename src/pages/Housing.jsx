@@ -34,7 +34,7 @@ const Housing = () => {
                 <div>
                     <div className="host">
                         <p>{host.name}</p>
-                        <img src={host.picture} alt="photo" />
+                        <img src={host.picture} alt="host" />
                     </div>
                     <div className="star">{<Star rate={rating} />}</div>
                 </div>
